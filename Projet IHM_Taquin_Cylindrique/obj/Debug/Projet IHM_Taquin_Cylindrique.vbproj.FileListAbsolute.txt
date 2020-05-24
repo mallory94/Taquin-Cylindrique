@@ -1,0 +1,58 @@
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.exe.config
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.exe
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.pdb
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.xml
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbprojAssemblyReference.cache
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormJeu.resources
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormRecap.resources
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.resources
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.Resources.resources
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.Test.resources
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbproj.GenerateResource.cache
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbproj.CoreCompileInputs.cache
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.exe
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.xml
+C:\Users\mallory\Documents\Code\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.pdb
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.exe.config
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.exe
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.pdb
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.xml
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbprojAssemblyReference.cache
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormJeu.resources
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormRecap.resources
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.resources
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.Resources.resources
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbproj.GenerateResource.cache
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbproj.CoreCompileInputs.cache
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.exe
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.xml
+I:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.pdb
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.exe.config
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.exe
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.pdb
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.xml
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.Form1.resources
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormJeu.resources
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormRecap.resources
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.resources
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.Resources.resources
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbproj.GenerateResource.cache
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbproj.CoreCompileInputs.cache
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.exe
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.xml
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.pdb
+D:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbprojAssemblyReference.cache
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.exe.config
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.exe
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.pdb
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\bin\Debug\Projet IHM_Taquin_Cylindrique.xml
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbprojAssemblyReference.cache
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormJeu.resources
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormRecap.resources
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.resources
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet_IHM_Taquin_Cylindrique.Resources.resources
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbproj.GenerateResource.cache
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.vbproj.CoreCompileInputs.cache
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.exe
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.xml
+E:\DUT INFORMATIQUE\Projet IHM_Taquin_Cylindrique\Projet IHM_Taquin_Cylindrique\obj\Debug\Projet IHM_Taquin_Cylindrique.pdb

@@ -1,0 +1,658 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Projet IHM_Taquin_Cylindrique
+</name>
+</assembly>
+<members>
+<member name="T:Projet_IHM_Taquin_Cylindrique.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:Projet_IHM_Taquin_Cylindrique.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:Projet_IHM_Taquin_Cylindrique.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:Projet_IHM_Taquin_Cylindrique.My.Resources.Resources.background_img">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Projet_IHM_Taquin_Cylindrique.My.Resources.Resources.bananaDance">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Projet_IHM_Taquin_Cylindrique.My.Resources.Resources.blueBlackBg">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Projet_IHM_Taquin_Cylindrique.My.Resources.Resources.blueBlackBg1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Projet_IHM_Taquin_Cylindrique.My.Resources.Resources.glowbones">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.init">
+ <summary>
+ initialiser un tableau de Spot (emplacement) correspondant au jeu de taquin
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.findCoordByIndex(System.Windows.Forms.Button@,System.Int32@,System.Int32@)">
+ <summary>
+ trouve les coordonnées du bouton renseigné et attribue aux variables reçues (x et y) les coordonnées de ce bouton.
+ </summary>
+ <param name="btn">bouton dont on cherche les coordonnées</param>
+ <param name="x">variable qui se verra attribuer la coordonnée x du bouton renseigné</param>
+ <param name="y">variable qui se verra attribuer la coordonnée y du bouton renseigné</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.setVoidCoord(System.Int32,System.Int32)">
+ <summary>
+ utilise les données reçues (x et y) en tant que coordonnées et attribue (de façon théorique) ces coordonnées à la case vide 
+ </summary>
+ <param name="x">coordonnée qui va devenir la ligne théorique de la case vide</param>
+ <param name="y">coordonnée qui va devenir la colonne théorique de la case vide</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.isDefinedAsMoveable(Projet_IHM_Taquin_Cylindrique.Spot@)">
+ <summary>
+ vérifie si l'emplacement reçu en paramètre correspond à une case bougeable.
+ </summary>
+ <param name="spot">emplacement sur lequel se porte la vérification</param>
+ <returns>renvoit true si l'emplacment correspond à une case bougeable. False sinon</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.Shift(Projet_IHM_Taquin_Cylindrique.Spot@)">
+ <summary>
+ fait se déplacer la case vide dans l'emplacement renseigné en paramètre
+ </summary>
+ <param name="spot">emplacement destiné à devenir la case vide</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.findInMoveables(System.Windows.Forms.Button@)">
+ <summary>
+ retourn l'emplacement vide parmi les cases étant sujettes à des déplacements
+ </summary>
+ <param name="btn"></param>
+ <returns></returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.ScanSpotMoveable">
+ <summary>
+ définit les cases qui peuvent bouger si l'utilisateur clique dessus
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.IsOver">
+ <summary>
+ indique si la partie est terminée ou non suivant la disposition du taquin
+ </summary>
+ <returns>retourne true si la partie est terminée. false sinon</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.toString">
+ <summary>
+ renvoit une chaine de caractère représentant la disposition actuelle du taquin.
+ </summary>
+ <returns>chaine de caractère représentant la disposition actuelle du taquin</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.CheckLineAndCol(System.String@)">
+ <summary>
+ vérifie que la chaine de caractère renseignée contient bien le nombre de ligne et de colonne du taquin.
+ </summary>
+ <param name="str">chaine de caractère contenant le nombre de ligne et nombre de colonne</param>
+ <returns>renvoit true si les caracteristiques renseignées dans la chaine de caractères correspondent bien, false dans le cas contraire </returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.getNbL">
+ <summary>
+ retourne le nombre de ligne du taquin
+ </summary>
+ <returns>nombre de ligne du taquin</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.getNbC">
+ <summary>
+ retourne le nombre de colonne du taquin
+ </summary>
+ <returns>nombre de colonne du taquin</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.getVoidCoord">
+ <summary>
+ retourne les coordonnées de la case vide
+ </summary>
+ <returns>Coordonnées de la case vide</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.findSpot(System.Int32[]@)">
+ <summary>
+ retourne l'emplacement correspondant aux coordonnées reçues en paramètre
+ </summary>
+ <param name="Coord">coordonnées du spot à retourner</param>
+ <returns>spot coorespondant aux coordonnées</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Board.getSpotMoveable">
+ <summary>
+ retourne la liste des emplacements des cases bougeables (contient la case vide)
+ </summary>
+ <returns>liste des emplacements des cases bougeables (contient la case vide)</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Chrono.startChrono(System.Windows.Forms.Timer@,System.Windows.Forms.Button@,System.Int32@)">
+ <summary>
+ démarre le chronomètre
+ </summary>
+ <param name="t">timer du chronometre</param>
+ <param name="btnPause">bouton pause du chroomètre</param>
+ <param name="limit">durée limite du chronometre</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Chrono.resetChrono">
+ <summary>
+ réinitialise le chronomètre
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Chrono.increaseChrono">
+ <summary>
+ augmente la durée chronomètrée
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Chrono.getCurrentTime">
+ <summary>
+ retourne la durée chronométrée en secondes
+ </summary>
+ <returns>durée chronométrée en seconde</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Chrono.pauseChrono">
+ <summary>
+ met en pause le chronomètre
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Chrono.continueChrono">
+ <summary>
+ reprend le chronométrage
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Chrono.isEnable">
+ <summary>
+ retourne si oui ou non le chronomètre est activé
+ </summary>
+ <returns>true si le chronomètre est activé. False sinon</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.StartFiesta">
+ <summary>
+ démarre le mode fête
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.StopFiesta">
+ <summary>
+ arrête le mode fiesta
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.setSkelGif(System.Boolean)">
+ <summary>
+ active ou désactive les décorations avec les squelettes dansant en fonction du boolean reçu
+ </summary>
+ <param name="bool">définit si on doit désactiver ou activer les décorations</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.setBananaMusic(System.Boolean)">
+ <summary>
+ active ou désactive la musique banana split en fonction du boolean reçu
+ </summary>
+ <param name="bool"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.showTimeRemaining">
+ <summary>
+ Affiche dans le temps 
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.setEpilepticMod(System.Boolean@)">
+ <summary>
+ active ou désactive le mode épileptique en fonction du boolean reçu
+ </summary>
+ <param name="enable"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.timerAction">
+ <summary>
+ 
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.Shuffle">
+ <summary>
+ mélange le taquin
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.clickOnButton(System.Object,System.EventArgs)">
+ <summary>
+ remplacer le bouton pressé par la case vide si jamais celui figure dans les cases bougeables
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.FormJeu_Load(System.Object,System.EventArgs)">
+ <summary>
+ prépare le déroulement du jeu
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.setParamWindow">
+ <summary>
+ configure les paramètres de la fenetre
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.FormJeu_Shown">
+ <summary>
+ lance le chronometre lorsque le formulaire d'affiche
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.GameFinished(System.Boolean)">
+ <summary>
+ prend en charge la fin de partie.
+ met à jour les données des joueurs si necessaire
+ </summary>
+ <param name="isWon">indique si la partie est gagnée ou perdue</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.BtnAbandon_Click(System.Object,System.EventArgs)">
+ <summary>
+ lors d'un clique sur le bouton abandon, lance une boite de dialogue demandant si la personne souhaite réellement abandonner
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.findCurrentPlayer">
+ <summary>
+ retourne le joueur courant
+ </summary>
+ <returns>joueur courant</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.getCurrentPlayerName">
+ <summary>
+ retourne le nom du joueur courant
+ </summary>
+ <returns>nom du joueur courant</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.fermetureFormJeu">
+ <summary>
+ ouvre le formulaire d'accueil et termine les processus taquin.exe lors de la fermeture du formulaire
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.killT">
+ <summary>
+ termine les processus taquin.exe
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.setLimitTime(System.Int32)">
+ <summary>
+ définit la durée limite de résolution du taquin
+ </summary>
+ <param name="time"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.Button19_Click(System.Object,System.EventArgs)">
+ <summary>
+ appelle une boite de dialogue demandant au joueur si il souhaite vraiment voir la solution
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.invokeChoice(System.String)">
+ <summary>
+ affiche une boite de dialogue dont le message varie suivant la string reçue en parametre.
+ </summary>
+ <param name="strVerb">action du joueur qu'on lui demande de confirmer </param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.blockAllBtn(System.Collections.Generic.List{System.Windows.Forms.Button}@)">
+ <summary>
+ bloque tous les boutons du formulaire et ajoute ceux-ci à la liste reçue en paramètre
+ </summary>
+ <param name="btnList">liste des boutons qui ont été bloqués</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.blockOrUnlockMoveBtn(System.Boolean)">
+ <summary>
+ débloque ou bloque les boutons(cases) du taquin suivant le paramètre reçue
+ débloque si le boolean vaut true. Bloque sinon
+ </summary>
+ <param name="state">état que va prendre l'attribut "enabled" du bouton</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormJeu.unlockAllBtn(System.Collections.Generic.List{System.Windows.Forms.Button}@)">
+ <summary>
+ débloque tous les boutons de la liste reçue en paramètre
+ </summary>
+ <param name="btnList">liste dont il faut débloquer les boutons</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormRecap.BtnTriNom_Click(System.Object,System.EventArgs)">
+ <summary>
+ trie dans l'ordre alphabétique la listeBox des joueurs enregistrés et synchronise la listeBox des temps sur celle des noms
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormRecap.FormRecap_Visi(System.Object,System.EventArgs)">
+ <summary>
+ charge les combobox quand le formulaire récapitulatif apparait
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormRecap.loadListBoxesAndComboBox">
+ <summary>
+ charge les combobox avec les données des joueurs
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormRecap.BtnTriParTemps_Click(System.Object,System.EventArgs)">
+ <summary>
+ trie les joueurs par temps
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormRecap.ListBoxes_SelChanged(System.Object,System.EventArgs)">
+ <summary>
+ lors d'un clique sur un item d'un listBox, selectionne l'item de l'autre listBox qui lui correspond
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormRecap.SearchComboBox">
+ <summary>
+ mets le focus des listes sur le joueur rechercher à partir de la combobox
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormRecap.fermetureFormRecap">
+ <summary>
+ procede au masquage du formulaire Recap et à la mise en évidence du formulaire d'accueil
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormRecap.btnQuitter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Quitte le formulaire sur un clique du bouton "quitter"
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormRecap.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ invoque une msgBox qui résume les informations du joueur sélectionner dans les listBox
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.FormulaireAccueil_activated">
+ <summary>
+ ajoute un handle Mybase.VisibleChanged sur la sub "FormulaireAccueil_VisibleChange()"
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.FormulaireAccueil_VisibleChange">
+ <summary>
+ si le formulaire est visible, sauvegarde les données des joueurs et remplie la combobox
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ lance une nouvelle partie si le joueur a emprunté un pseudo autorisé. Sinon Informe le joueur des contraintes sur le choix des pseudos.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.FormAcceuilCBFill">
+ <summary>
+ vide la combobox puis la remplit avec les données chargés
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ ferme le formulaire d'accueil
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.Button3_Click(System.Object,System.EventArgs)">
+ <summary>
+ cache le formulaire d'accueil et affiche le formulaire qui récapitule les scores des joueurs
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.initTrackBar">
+ <summary>
+ initialise la valeur du label censé affiché la valeur de la track barre à la valeur de la trackbarre
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.RadioButtonPerso_CheckedChanged(System.Windows.Forms.RadioButton,System.EventArgs)">
+ <summary>
+ rend visible ou non les options de mode de jeu suivant le radiobutton coché
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.TrackBarPerso_Scroll(System.Object,System.EventArgs)">
+ <summary>
+ modifie l'affichage du label qui renseigne la valeur de la track bar utilisé pour définir un mode de jeu personnalisé 
+ </summary>
+ <param name="sender">track bar du mode personnalisé</param>
+ <param name="e">trackbar scroll event</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.initRadioButtons">
+ <summary>
+ coche le radioButton correspondant au mode 90 secondes lors du lancement de l'application
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.FormulaireAccueil.modeDeJeu">
+ <summary>
+ récupère le nombre temps qui correspond au mode de jeu sélectionné dans l'accueil
+ </summary>
+ <returns>durée limite de résolution du taquin</returns>
+</member>
+<member name="T:Projet_IHM_Taquin_Cylindrique.Mouvements.Mouvement">
+ <summary>
+ variable représentant un mouvement de la case vide dans la disposition du taquin
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Mouvements.StrToEnum(System.String@)">
+ <summary>
+ convertit une chaine de caractère reçue en paramètre au type énuméré qui lui correspond
+ </summary>
+ <param name="str">chaine de caractère à convertir</param>
+ <returns>mouvement issu de la conversion</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Player.#ctor(System.String@,System.Int32@,System.Boolean)">
+ <summary>
+ définit un joueur en fonction des caractéristiques reçues en paramètres
+ </summary>
+ <param name="name">nom du joueur</param>
+ <param name="time">temps joué</param>
+ <param name="hasWon">indicateur de victoire</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Player.#ctor(System.String@,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ définit un joueur en fonction des caractéristiques reçues en paramètres
+ </summary>
+ <param name="name">nom du joueur</param>
+ <param name="time">record personnel du joueur en secondes</param>
+ <param name="nbGP">nombre de parties jouées</param>
+ <param name="totalPT">temps total de jeu en secondes</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Player.updateRecord(System.Int32)">
+ <summary>
+ met à jour le record d'un joueur si ce dernier a battu ce record
+ </summary>
+ <param name="time">temps effectué</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Player.updateTotalPlayTime(System.Int32)">
+ <summary>
+ met à jour le temps total de jeu d'un joueur
+ </summary>
+ <param name="time">temps de jeu à rajouter</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Player.incNbGamePlayed">
+ <summary>
+ augmente de nom le nombre de partie jouée par le joueur
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Player.ToString">
+ <summary>
+ renvoit une chaine de caractère résumant les statistiques du joueur
+ </summary>
+ <returns>chaine de caractère contenant des infos sur le joueur</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Player.getInfo">
+ <summary>
+ retourne une chaine de caractère relativement détaillé donnant des infos sur le joueur
+ </summary>
+ <returns>chaine de caractère contenant des infos sur le joueur</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Player.getName">
+ <summary>
+ retourne le nom du joueur
+ </summary>
+ <returns>nom du joueur</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Player.getBestTime">
+ <summary>
+ retourne le record (en secondes) du joueur
+ </summary>
+ <returns>record (en secondes) du joueur</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.ModuleSave.addPlayer(Projet_IHM_Taquin_Cylindrique.Player@)">
+ <summary>
+ ajoute un joueur à la liste des joueurs chargés en mémoire temporaire
+ </summary>
+ <param name="player">nom du joueur</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.ModuleSave.findPlayer(System.String)">
+ <summary>
+ renvoit le joueur de l'application qui porte le nom renseigné
+ </summary>
+ <param name="name">nom du joueur recherché</param>
+ <returns></returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.ModuleSave.comboBoxFilling(System.Windows.Forms.ComboBox@)">
+ <summary>
+ rempli la combobox renseignée du nom des joueurs de l'application
+ </summary>
+ <param name="combobox"></param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.ModuleSave.loadRecordings">
+ <summary>
+ charge tous les enregistrements concernant les joueurs de l'application en mémoire temporaire
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.ModuleSave.saveRecording">
+ <summary>
+ sauvegarde tous les enregistrements concernant les joueurs de l'application en mémoire permanente
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.ModuleSave.getPlayerList">
+ <summary>
+ retourne la liste des joueurs de l'application
+ </summary>
+ <returns>liste des joueurs de l'application</returns>
+</member>
+<member name="T:Projet_IHM_Taquin_Cylindrique.Solution.BoutonPresse">
+ <summary>
+ définit la nature du dernière bouton de solution pressé
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.showSolution">
+ <summary>
+ prend en charge l'affichage de la solution du taquin
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.getSolution">
+ <summary>
+ retourne la liste des mouvements nécessaires à la victoire
+ </summary>
+ <returns>liste des mouvements nécessaires à la victoire</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.ecrit_fichier">
+ <summary>
+ écrit dans un fichier la disposition actuelle du taquin
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.lit_fichier">
+ <summary>
+ lit la réponse de l'algo de résolution de taquin cylindrique
+ </summary>
+ <returns>chaine de caractère correspondant à la solution renvoyée par l'algorithme</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.appelle_taquin_exe">
+ <summary>
+ procédure qui appelle taquin.exe afin de lui faire résoudre le taquin actuel et inscrire la solution dans un .txt
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.decrypter">
+ <summary>
+ transforme la solution émise par l'algorithme de résolution de taquin en une liste d'énum "Mouvement" à effectuée pour gagner
+ </summary>
+ <returns>liste d'énum "Mouvement" à effectuée pour gagner</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.afficherBouttons">
+ <summary>
+ affiche les boutons qui servent à avancer et reculer dans la résolution automatique du taquin
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.addHandleButtons">
+ <summary>
+ ajoute aux boutons de résolution automatique du taquin les procédures se chargeant de leur fonctionnement
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.AvancerCoups">
+ <summary>
+ joue le prochain coups necessaire à la résolution du taquin
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.ReculerCoups">
+ <summary>
+ joue le coups précédent dans l'ordre de la liste des coups necessaires à la resolution du taquin
+ </summary>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.jouerCoups(System.Int32)">
+ <summary>
+ joue un coup en fonction de l'indice courant dans la liste des mouvements à effectuer pour résoudre le taquin
+ </summary>
+ <param name="indice">indice courant du mouvement</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.InverserMouvement(Projet_IHM_Taquin_Cylindrique.Mouvements.Mouvement)">
+ <summary>
+ renvoit un mouvement inverse à celui reçu afin de permettre d'annuler un mouvement lors de la résolution automatique
+ </summary>
+ <param name="mouv">mouvement dont on cherche l'opposé</param>
+ <returns>mouvement oppposé au mouvement reçu</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Solution.ConvertMouvToSpot(Projet_IHM_Taquin_Cylindrique.Mouvements.Mouvement)">
+ <summary>
+ retourne l'emplacement représentant la case à bouger pour opérer le mouvement reçu en paramètre
+ </summary>
+ <param name="mouv">mouvement à convertir en emplacement</param>
+ <returns>emplacement de la case à déplacer</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Spot.shiftInVoid(System.Windows.Forms.Button@)">
+ <summary>
+ le boutton du spot pour lequel est invoqué la méthode devient la case vide
+ </summary>
+ <param name="btn">bouton dont l'emplacement représente la case qui intervertir avec la case vide</param>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Spot.value">
+ <summary>
+ retourne la valeur contenue dans le bouton de l'emplacement
+ </summary>
+ <returns>valeur contenue dans le bouton</returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Spot.isEquals(System.Windows.Forms.Button@)">
+ <summary>
+ 
+ </summary>
+ <param name="btn"></param>
+ <returns></returns>
+</member>
+<member name="M:Projet_IHM_Taquin_Cylindrique.Spot.getButton">
+ <summary>
+ retourne le bouton de l'emplacement
+ </summary>
+ <returns>bouton de l'emplacement</returns>
+</member>
+</members>
+</doc>
